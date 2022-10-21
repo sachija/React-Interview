@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-1</title>
+</head>
+<body>
+    <H1>Interview Preparation </H1>
+    <hr>
+    <h2>Day-1</h2>
+    <h3>what is virtual Dom</h3>
+    <p>Virtual DOM in React is a “virtual” representation of the actual DOM. DOM = Document Object Model Also known as Diffing algorithm The changes which we make in component, these changes will be combined and create a new Virtual DOM.
+        Virtual DOM will be compared with the Real DOM. Then it will only replace where change has occurred.
+        This process increases the efficiency of the application It is nothing but an object created to replicate the actual DOM.
+       Unlike the actual DOM, the virtual DOM is cheap to create because it doesn’t write to the screen. It is only available as a strategy to prevent a redraw of unnecessary page elements during re-render.</p>
+
+<hr>
+<h3> Que-2 what is SPA</h3>
+A Single Page Application (SPA) is a web application that is designed to be displayed as a single, static page.
+This approach makes the application more user-friendly and easier to navigate, as users can see the entire application at once.
+With a traditional web application, users are redirected to a new page every time they make a change to their data, which can be frustrating if they want to edit information in multiple places.
+In contrast, SPA-based applications are completely focused on one thing at a time, allowing users to work through each step in a consistent manner.
+
+<hr><h3>Que-3 What is the difference between class and functional component?</h3>
+<img src="/OIP.jpg" alt="" srcset="">
+<hr>
+<h3>Que-4 What is state and its use in react</h3>
+State of a component is an object that holds some information that may change over the lifetime of the component. We should always try to make our state as simple as possible and minimize the number of stateful components.
+
+        <pre>  class User extends React.Component {
+            constructor(props) {
+              super(props)
+        
+              this.state = {
+                message: 'Welcome to Prepbytes'
+              }
+            }
+        
+            render() {
+              return (
+                <div>
+                  <h5>{this.state.message}</h5>
+                </div>
+              )
+            }
+          }</pre>
+
+          <hr>
+          <h3>Que-5 What is JSX and Why do we use it instead of js</h3>
+          JSX is a XML-like syntax extension to ECMAScript (the acronym stands for JavaScript XML). Basically it just provides syntactic sugar for the React.createElement() function, giving us expressiveness of JavaScript along with HTML like template syntax.
+<hr>
+          <h3> Que-6 What is package.json</h3>
+          In short, we can say, Package.json = Metadata associated with project + All Dependencies with version + scripts In the react project you can see the package.json file in the react project structure.
+
+</body>
+
+</html>
