@@ -1,21 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import{BrowserRouter,Routes,Route} from "react-router-dom"
-import Home from './components/Home';
-import About from './components/About';
+// import Hoc from './components/Hoc';
+import Width from './components/Width';
+import Theory from './components/Theory';
 
 function App() {
+  
   return (
-    <BrowserRouter>
     <div className="App">
-    
-      <Routes>
-        <Route path="" element={<Home/>}></Route>
-        <Route path="/about" element={<About/>}></Route>
-      </Routes>
-     
+      <Width></Width>
+      <Theory></Theory>
+       {/* <Hoc  ></Hoc>  */}
     </div>
-   </BrowserRouter>
   );
 }
 
